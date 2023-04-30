@@ -33,11 +33,9 @@
                      </HBox.margin>
                   </Button>
                   <Button fx:id="switchroot" mnemonicParsing="false" onAction="#switchToSecondary" text="Switch" textAlignment="CENTER" />
-                  <Button fx:id="loginBtn" mnemonicParsing="false" onAction="#switchToLogin" onMouseClicked="#switchToLogin" prefHeight="25.0" prefWidth="54.0" text="Login">
-                     <HBox.margin>
-                        <Insets left="6.0" />
-                     </HBox.margin>
-                  </Button>
+                  
+                     
+                  
                </children>
             </HBox>
          </children>
