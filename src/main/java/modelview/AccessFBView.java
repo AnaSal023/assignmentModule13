@@ -47,6 +47,7 @@ public class AccessFBView {
     private Button writeButton;
     @FXML
     private Button readButton;
+    
     @FXML
     private TextArea outputField;
      private boolean key;
@@ -82,6 +83,10 @@ public class AccessFBView {
      @FXML
     private void switchToSecondary() throws IOException {
         App.setRoot("WebContainer.fxml");
+    }
+     @FXML
+    private void switchToLogin() throws IOException {
+        App.setRoot("login.fxml");
     }
     
     public void addData() {
